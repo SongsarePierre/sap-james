@@ -37,7 +37,7 @@ export default function GalleryPage() {
         <div className="title">
           <h1>Design de produit</h1>
           <p>
-            Le design de produit regroupe la création d&apos;applications mobiles, de sites web et de logiciels, en mettant l&apos;accent sur l&apos;ergonomie, l&apos;accessibilité et l&apos;expérience utilisateur. Je commençe par comprendre les besoins de vos utilisateurs finaux à travers des recherches approfondies et des ateliers collaboratifs. Ensuite, je traduit ces besoins en wireframes et prototypes interactifs avant de concevoir des interfaces graphiques modernes et engageantes. J'intégre également les principes d&apos;accessibilité et de design system pour assurer une cohérence et une évolutivité à long terme. Le design de produit, c&apos;est aussi une collaboration continue pour ajuster et améliorer vos produits en fonction des retours utilisateurs et des évolutions du marché.
+            Le design de produit regroupe la création d&apos;applications mobiles, de sites web et de logiciels, en mettant l&apos;accent sur l&apos;ergonomie, l&apos;accessibilité et l&apos;expérience utilisateur. Je commençe par comprendre les besoins de vos utilisateurs finaux à travers des recherches approfondies et des ateliers collaboratifs. Ensuite, je traduit ces besoins en wireframes et prototypes interactifs avant de concevoir des interfaces graphiques modernes et engageantes. J&apos;intégre également les principes d&apos;accessibilité et de design system pour assurer une cohérence et une évolutivité à long terme. Le design de produit, c&apos;est aussi une collaboration continue pour ajuster et améliorer vos produits en fonction des retours utilisateurs et des évolutions du marché.
           </p>
         </div>
 

@@ -6,6 +6,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ReactLenis } from "lenis/react";
+import Image from 'next/image';
 
 import "./home-en.css";
 
@@ -34,22 +35,22 @@ export default function Home() {
   const cards = [
     {
       title: "Brand Foundation",
-      copy: "Laying the strategic groundwork that defines who your brand is and what it stands for, guiding every design and communication decision. It’s the compass that ensures your brand is aligned with your audience and goals.",
+      copy: "Laying the strategic groundwork that defines who your brand is and what it stands for, guiding every design and communication decision. It&apos;s the compass that ensures your brand is aligned with your audience and goals.",
       pagePath: '/en/brand',
     },
     {
       title: "Visual identity",
-      copy: "The unique visual and creative system that shapes how your audience perceives and remembers your brand, from the first glance to every interaction. It’s the bridge that connects your strategy to your audience’s emotions.",
+      copy: "The unique visual and creative system that shapes how your audience perceives and remembers your brand, from the first glance to every interaction. It&apos;s the bridge that connects your strategy to your audience&apos;s emotions.",
       pagePath: '/en/brand-ind',
     },
     {
       title: "Visual Content Creation for Social Media",
-      copy: "Crafting visually compelling and on-brand content that captivates, engages, and grows your audience across all social media platforms. From eye-catching graphics to memorable visuals, it’s about making every post unforgettable.",
+      copy: "Crafting visually compelling and on-brand content that captivates, engages, and grows your audience across all social media platforms. From eye-catching graphics to memorable visuals, it&apos;s about making every post unforgettable.",
       pagePath: '/en/cont-rs',
     },
     {
       title: "Design de produit",
-      copy: "Designing intuitive, beautiful, and functional products that solve real user problems and strengthen your brand’s value. It’s about transforming ideas into experiences that users love.",
+      copy: "Designing intuitive, beautiful, and functional products that solve real user problems and strengthen your brand&apos;s value. It&apos;s about transforming ideas into experiences that users love.",
       pagePath: '/en/product-d',
     },
   ];
@@ -134,7 +135,7 @@ export default function Home() {
           <h1>Shaping timeless innovations, where history meets tomorrow.</h1>
           <button className="btn">
             <a href="https://wa.me/message/DHICMCCPRFXFO1" target="_blank" rel="noopener noreferrer">
-              <h3>Let’s Work Together</h3>
+              <h3>Let&apos;s Work Together</h3>
             </a>
           </button>
         </section>

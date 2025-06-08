@@ -40,9 +40,9 @@ export default function BrandSteps() {
     return (
         <div className="steps-container">
             <div className="title">
-                <h1>Fondations d'une marque</h1>
+                <h1>Fondations d&apos;une marque</h1>
                 <p>
-                    Le fondement de marque est l&apos;étape essentielle où nous définissons l&apos;ADN même de votre entreprise. Je travaille avec vous pour identifier vos valeurs, votre mission et votre vision afin de bâtir une histoire cohérente et percutante. J'analyse votre marché cible et votre positionnement pour mieux comprendre comment vous différencier dans votre secteur. Ce processus inclut également l&apos;élaboration d&apos;un message clé et la création d&apos;une stratégie qui guide toutes les actions de communication et de marketing. Un fondement solide donne à votre marque la crédibilité et la cohérence nécessaires pour prospérer sur le long terme.
+                    Le fondement de marque est l&apos;étape essentielle où nous définissons l&apos;ADN même de votre entreprise. Je travaille avec vous pour identifier vos valeurs, votre mission et votre vision afin de bâtir une histoire cohérente et percutante. J&apos;analyse votre marché cible et votre positionnement pour mieux comprendre comment vous différencier dans votre secteur. Ce processus inclut également l&apos;élaboration d&apos;un message clé et la création d&apos;une stratégie qui guide toutes les actions de communication et de marketing. Un fondement solide donne à votre marque la crédibilité et la cohérence nécessaires pour prospérer sur le long terme.
                 </p>
             </div>
             <div className="steps-wrapper">

@@ -2,6 +2,7 @@
 
 import React, {useState, useRef, useEffect} from 'react';
 import Link from "next/link";
+import Image from 'next/image';
 
 import "./menu.css";
 import LanguageSwitcher from '../LanguageSwitcher';
