@@ -28,7 +28,7 @@ export default function GalleryPage() {
             <h1>
                 Identité visuelle
             </h1>
-            <p>L’identité visuelle est l’expression graphique de votre marque. Elle se compose d’éléments visuels comme le logo, la palette de couleurs, la typographie, les icônes et les motifs. Ces éléments travaillent ensemble pour créer une image cohérente et distinctive qui attire votre public cible et le fidélise. Je développe des guides de style et des systèmes graphiques complets pour assurer la cohérence de votre marque sur tous les supports: print, digital et réseaux sociaux. Une identité visuelle bien pensée renforce la reconnaissance de votre marque et laisse une impression durable.</p>
+            <p>L&apos;identité visuelle est l&apos;expression graphique de votre marque. Elle se compose d&apos;éléments visuels comme le logo, la palette de couleurs, la typographie, les icônes et les motifs. Ces éléments travaillent ensemble pour créer une image cohérente et distinctive qui attire votre public cible et le fidélise. Je développe des guides de style et des systèmes graphiques complets pour assurer la cohérence de votre marque sur tous les supports: print, digital et réseaux sociaux. Une identité visuelle bien pensée renforce la reconnaissance de votre marque et laisse une impression durable.</p>
         </div>
 
         <div className="gallery-grid">

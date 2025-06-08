@@ -14,7 +14,7 @@ export default function BrandSteps() {
                         <div className="step-txt">
                             <p className="step-description">
                                 <span className="name">Songsare Amdji pierre <span>@SAP JAMES</span></span><br/><br/>
-                                Je suis un créatif passionné, avec une solide expérience dans la conception de logos, de visuels pour les réseaux sociaux et de designs de produits numériques ou physiques. Mon objectif est de rendre votre communication plus simple, plus forte et plus efficace. J’aime écouter vos besoins, comprendre vos idées et les transformer en designs qui parlent à vos clients. Grâce à mon approche pédagogique, je vous explique chaque étape du processus, pour que vous puissiez suivre et comprendre l’avancement du projet.
+                                Je suis un créatif passionné, avec une solide expérience dans la conception de logos, de visuels pour les réseaux sociaux et de designs de produits numériques ou physiques. Mon objectif est de rendre votre communication plus simple, plus forte et plus efficace. J&apos;aime écouter vos besoins, comprendre vos idées et les transformer en designs qui parlent à vos clients. Grâce à mon approche pédagogique, je vous explique chaque étape du processus, pour que vous puissiez suivre et comprendre l&apos;avancement du projet.
                             </p>
                             <div className="line"></div>
                             <div className="info">
@@ -34,7 +34,7 @@ export default function BrandSteps() {
                             </div>                                  
                         </div>
                         <div className="step-image">
-                            <img src="/pics/images/pp.webp" alt=""/>
+                            <Image src="/pics/images/pp.webp" alt="..." width={200} height={100} />
                         </div>
                     </div>
             </div>

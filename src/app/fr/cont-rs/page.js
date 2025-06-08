@@ -46,7 +46,7 @@ export default function GalleryPage() {
             <h1>
                 Création de contenu visuel pour les réseaux sociaux
             </h1>
-            <p>La création de contenu visuel pour les réseaux sociaux consiste à transformer l’identité de votre marque en images percutantes et facilement partageables. Je développe des visuels originaux adaptés aux spécificités de chaque plateforme : Instagram, Facebook, LinkedIn, TikTok, etc. Cela inclut des illustrations, des photos, des typographies dynamiques et des animations pour capter l’attention de votre audience. J'élabore des templates et des systèmes graphiques qui garantissent la cohérence de votre marque sur tous vos réseaux sociaux, tout en intégrant les dernières tendances et les meilleures pratiques. Cette approche globale vous permet de renforcer votre présence en ligne, d’engager votre communauté et de vous démarquer de la concurrence.</p>
+            <p>La création de contenu visuel pour les réseaux sociaux consiste à transformer l&apos;identité de votre marque en images percutantes et facilement partageables. Je développe des visuels originaux adaptés aux spécificités de chaque plateforme : Instagram, Facebook, LinkedIn, TikTok, etc. Cela inclut des illustrations, des photos, des typographies dynamiques et des animations pour capter l&apos;attention de votre audience. J'élabore des templates et des systèmes graphiques qui garantissent la cohérence de votre marque sur tous vos réseaux sociaux, tout en intégrant les dernières tendances et les meilleures pratiques. Cette approche globale vous permet de renforcer votre présence en ligne, d&apos;engager votre communauté et de vous démarquer de la concurrence.</p>
         </div>
 
         <div className="gallery-grid">

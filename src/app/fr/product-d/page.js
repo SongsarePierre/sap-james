@@ -12,19 +12,19 @@ export default function GalleryPage() {
     {
       src: "/pics/projets/ui/ui 1.webp",
       title: "Site Web Personnel pour un Designer UI/UX",
-      description: "Un site web portfolio moderne et responsive, conçu pour un designer UI/UX, mettant en avant sa créativité, son approche centrée sur l’utilisateur et son sens du détail. Ce projet propose une page d’accueil élégante avec une section héro personnalisée, une barre de navigation intuitive, une galerie de projets présentant des études de cas, et un formulaire de contact pour une communication facile.",
+      description: "Un site web portfolio moderne et responsive, conçu pour un designer UI/UX, mettant en avant sa créativité, son approche centrée sur l&apos;utilisateur et son sens du détail. Ce projet propose une page d&apos;accueil élégante avec une section héro personnalisée, une barre de navigation intuitive, une galerie de projets présentant des études de cas, et un formulaire de contact pour une communication facile.",
       figmaLink: 'https://www.figma.com/proto/SFpggilmBUYEGznsR1NiUD/PIERRE-Bleu?node-id=1-2&t=HMwWqMZRmpU0jHgA-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1'
     },
     {
       src: "/pics/projets/ui/ui 2.webp",
       title: "Site Web pour une Entreprise de Glaçons Premium et Sculptures sur Mesure",
-      description: "Un site e-commerce dynamique créé pour une marque haut de gamme spécialisée dans les glaçons premium et les sculptures de glace sur mesure. Le site présente une page d’accueil immersive qui invite les clients à découvrir les trois tailles de glaçons de qualité supérieure, chacun avec des coins arrondis pour sublimer chaque boisson.",
+      description: "Un site e-commerce dynamique créé pour une marque haut de gamme spécialisée dans les glaçons premium et les sculptures de glace sur mesure. Le site présente une page d&apos;accueil immersive qui invite les clients à découvrir les trois tailles de glaçons de qualité supérieure, chacun avec des coins arrondis pour sublimer chaque boisson.",
       figmaLink: 'https://www.figma.com/proto/ytEhUDuyXiLCSGInxgrLh2/Eis-Noire?node-id=1-251&p=f&t=9oYrUqhstF9Iat2Q-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A251'
     },
     {
       src: "/pics/projets/ui/ui 3.webp",
       title: "Site Web Moderne pour une Agence de Développement",
-      description: "Un site web élégant et professionnel pour une agence digitale proposant des services de développement web et mobile. La page d’accueil capte immédiatement l’attention avec une section héro percutante qui met en avant l’expertise de l’agence et son engagement à fournir des solutions de qualité.",
+      description: "Un site web élégant et professionnel pour une agence digitale proposant des services de développement web et mobile. La page d&apos;accueil capte immédiatement l&apos;attention avec une section héro percutante qui met en avant l&apos;expertise de l&apos;agence et son engagement à fournir des solutions de qualité.",
       figmaLink: 'https://www.figma.com/proto/ItZw3rZ1aEFmTK9p4zOMge/Fortibtech--Copy-?node-id=1-2&p=f&t=C3gLQhkCRAvEY2Uv-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1'
     }
   ];
@@ -40,7 +40,7 @@ export default function GalleryPage() {
         <div className="title">
           <h1>Design de produit</h1>
           <p>
-            Le design de produit regroupe la création d’applications mobiles, de sites web et de logiciels, en mettant l’accent sur l’ergonomie, l’accessibilité et l’expérience utilisateur. Je commençe par comprendre les besoins de vos utilisateurs finaux à travers des recherches approfondies et des ateliers collaboratifs. Ensuite, je traduit ces besoins en wireframes et prototypes interactifs avant de concevoir des interfaces graphiques modernes et engageantes. J'intégre également les principes d’accessibilité et de design system pour assurer une cohérence et une évolutivité à long terme. Le design de produit, c’est aussi une collaboration continue pour ajuster et améliorer vos produits en fonction des retours utilisateurs et des évolutions du marché.
+            Le design de produit regroupe la création d&apos;applications mobiles, de sites web et de logiciels, en mettant l&apos;accent sur l&apos;ergonomie, l&apos;accessibilité et l&apos;expérience utilisateur. Je commençe par comprendre les besoins de vos utilisateurs finaux à travers des recherches approfondies et des ateliers collaboratifs. Ensuite, je traduit ces besoins en wireframes et prototypes interactifs avant de concevoir des interfaces graphiques modernes et engageantes. J'intégre également les principes d&apos;accessibilité et de design system pour assurer une cohérence et une évolutivité à long terme. Le design de produit, c&apos;est aussi une collaboration continue pour ajuster et améliorer vos produits en fonction des retours utilisateurs et des évolutions du marché.
           </p>
         </div>
 

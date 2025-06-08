@@ -10,9 +10,9 @@ const Langen = () => {
         <div className="lang-en">
             {/* <p>Language</p> */}
             <div className="options">
-                <a href="/">
+                <Link href="/">
                     <span className="fr">Fr</span>
-                </a>
+                </Link>
                 <a href="#">
                     <span className="en">En</span>
                 </a>

@@ -34,7 +34,7 @@ export default function BrandSteps() {
                             </div>                                  
                         </div>
                         <div className="step-image">
-                            <img src="/pics/images/pp.webp" alt=""/>
+                            <Image src="/pics/images/pp.webp" alt="..." width={200} height={100} />
                         </div>
                     </div>
             </div>

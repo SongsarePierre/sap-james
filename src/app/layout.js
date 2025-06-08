@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SAP JAMES",
-  description: "SAP JAMES propose des services de branding et de product design pour aider votre entreprise à prospérer. Contactez-nous dès aujourd’hui pour booster votre business.",
+  description: "SAP JAMES propose des services de branding et de product design pour aider votre entreprise à prospérer. Contactez-nous dès aujourd&apos;hui pour booster votre business.",
   icons: {
     icon: '/favicon.svg',
   },

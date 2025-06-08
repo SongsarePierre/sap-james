@@ -7,13 +7,13 @@ const stepsData = [
   {
     title: "Étape 1: Audit et Recherche",
     description:
-      "Analyse approfondie de l’existant: étude des éléments visuels, analyse concurrentielle, tendances du marché, et évaluation des points forts et des axes d’amélioration. Cela permet de dresser un diagnostic précis et objectif de la marque.",
+      "Analyse approfondie de l&apos;existant: étude des éléments visuels, analyse concurrentielle, tendances du marché, et évaluation des points forts et des axes d&apos;amélioration. Cela permet de dresser un diagnostic précis et objectif de la marque.",
     image: "/pics/images/step1.webp",
   },
   {
     title: "Étape 2: Stratégie de Marque",
     description:
-      "Définition des valeurs, de la mission et de la vision de la marque. C’est à ce stade que l’on pose les bases stratégiques qui guideront toutes les actions de communication et de design à venir.",
+      "Définition des valeurs, de la mission et de la vision de la marque. C&apos;est à ce stade que l&apos;on pose les bases stratégiques qui guideront toutes les actions de communication et de design à venir.",
     image: "/pics/images/step2.webp",
   },
   {
@@ -25,7 +25,7 @@ const stepsData = [
   {
     title: "Étape 4: Message et Ton de Voix",
     description:
-      "Élaboration du discours de marque: définition du ton à adopter et des messages clés à transmettre. Cette étape garantit la cohérence et la pertinence des prises de parole sur l’ensemble des supports de communication.",
+      "Élaboration du discours de marque: définition du ton à adopter et des messages clés à transmettre. Cette étape garantit la cohérence et la pertinence des prises de parole sur l&apos;ensemble des supports de communication.",
     image: "/pics/images/step4.webp",
   },
   {
@@ -42,7 +42,7 @@ export default function BrandSteps() {
             <div className="title">
                 <h1>Fondations d'une marque</h1>
                 <p>
-                    Le fondement de marque est l’étape essentielle où nous définissons l’ADN même de votre entreprise. Je travaille avec vous pour identifier vos valeurs, votre mission et votre vision afin de bâtir une histoire cohérente et percutante. J'analyse votre marché cible et votre positionnement pour mieux comprendre comment vous différencier dans votre secteur. Ce processus inclut également l’élaboration d’un message clé et la création d’une stratégie qui guide toutes les actions de communication et de marketing. Un fondement solide donne à votre marque la crédibilité et la cohérence nécessaires pour prospérer sur le long terme.
+                    Le fondement de marque est l&apos;étape essentielle où nous définissons l&apos;ADN même de votre entreprise. Je travaille avec vous pour identifier vos valeurs, votre mission et votre vision afin de bâtir une histoire cohérente et percutante. J'analyse votre marché cible et votre positionnement pour mieux comprendre comment vous différencier dans votre secteur. Ce processus inclut également l&apos;élaboration d&apos;un message clé et la création d&apos;une stratégie qui guide toutes les actions de communication et de marketing. Un fondement solide donne à votre marque la crédibilité et la cohérence nécessaires pour prospérer sur le long terme.
                 </p>
             </div>
             <div className="steps-wrapper">
