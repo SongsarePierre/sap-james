@@ -5,6 +5,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
+import "./brand-ind.css";
+
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -18,16 +20,12 @@ export default function GalleryPage() {
 
   return (
     <>
-      <Head>
-        <link rel="stylesheet" href="brand-ind.css" />
-      </Head>
-
       <div className="page-content">
         <div className="title">
             <h1>
                 Design Identity
             </h1>
-            <p>Design identity transforms the strategic essence of your brand into a rich and cohesive visual language. It begins with developing a memorable logo that encapsulates your brand’s personality, supported by a color palette that conveys the right emotional tone. I carefully select typography that enhances readability and reinforces your brand’s character. Imagery, iconography, and graphic systems are thoughtfully crafted to ensure consistency and visual harmony across all platforms. Design Identity also includes brand guidelines that empower your team to maintain a unified look and feel, no matter where your brand appears. This holistic approach ensures that your brand is instantly recognizable, trustworthy, and memorable, creating a lasting connection with your audience.</p>
+            <p>Design identity transforms the strategic essence of your brand into a rich and cohesive visual language. It begins with developing a memorable logo that encapsulates your brand&apos;s personality, supported by a color palette that conveys the right emotional tone. I carefully select typography that enhances readability and reinforces your brand&apos;s character. Imagery, iconography, and graphic systems are thoughtfully crafted to ensure consistency and visual harmony across all platforms. Design Identity also includes brand guidelines that empower your team to maintain a unified look and feel, no matter where your brand appears. This holistic approach ensures that your brand is instantly recognizable, trustworthy, and memorable, creating a lasting connection with your audience.</p>
         </div>
 
         <div className="gallery-grid">

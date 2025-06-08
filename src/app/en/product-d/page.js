@@ -5,6 +5,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
+import "./product-d.css";
+
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -24,23 +26,18 @@ export default function GalleryPage() {
     {
       src: "/pics/projets/ui/ui 3.webp",
       title: "Modern Development Agency Website",
-      description: "A sleek, professional website for a digital agency that provides web and mobile development services. The homepage immediately captures attention with a bold hero section that conveys the agency’s expertise and commitment to delivering top-notch solutions.",
+      description: "A sleek, professional website for a digital agency that provides web and mobile development services. The homepage immediately captures attention with a bold hero section that conveys the agency&apos;s expertise and commitment to delivering top-notch solutions.",
       figmaLink: 'https://www.figma.com/proto/ItZw3rZ1aEFmTK9p4zOMge/Fortibtech--Copy-?node-id=1-2&p=f&t=C3gLQhkCRAvEY2Uv-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1'
     }
   ];
 
   return (
     <>
-      <Head>
-        <title>Gallery</title>
-        <link rel="stylesheet" href="product-d.css" />
-      </Head>
-
       <div className="page-content">
         <div className="title">
           <h1>Product Design</h1>
           <p>
-            Product Design is a multidisciplinary process that blends creativity, strategy, and technology to build products that truly resonate with your users. It begins with deep user research to understand their needs, pain points, and behaviors. I translate these insights into wireframes and prototypes, rapidly iterating to refine usability and functionality. Visual design brings the product to life, balancing aesthetic appeal with user experience. For digital products, I ensure that interfaces are intuitive and accessible, while for physical products, I consider ergonomics, materials, and sustainability. Testing and validation are continuous throughout the process, ensuring the final product not only meets but exceeds user expectations. By aligning every decision with your brand’s purpose, I create products that drive engagement, loyalty, and business success.
+            Product Design is a multidisciplinary process that blends creativity, strategy, and technology to build products that truly resonate with your users. It begins with deep user research to understand their needs, pain points, and behaviors. I translate these insights into wireframes and prototypes, rapidly iterating to refine usability and functionality. Visual design brings the product to life, balancing aesthetic appeal with user experience. For digital products, I ensure that interfaces are intuitive and accessible, while for physical products, I consider ergonomics, materials, and sustainability. Testing and validation are continuous throughout the process, ensuring the final product not only meets but exceeds user expectations. By aligning every decision with your brand&apos;s purpose, I create products that drive engagement, loyalty, and business success.
           </p>
         </div>
 

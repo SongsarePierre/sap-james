@@ -22,7 +22,7 @@ const Card = ({ title, copy, pagePath, index}) => {
             <p>{copy}</p>
           </div>
           <div className="card-img">
-            <img src={`/pics/card-${index + 1}.gif`} alt={title}/>
+            <Image src={`/pics/card-${index + 1}.gif`} alt={title} width={200} height={100} />
           </div>
         </div>
       </a>
@@ -124,7 +124,7 @@ export default function Home() {
           ))}
         </section>
         <section className="outro">
-          <h1>Façonner des innovations intemporelles, là où l’histoire rencontre demain.</h1>
+          <h1>Façonner des innovations intemporelles, là où l&apos;histoire rencontre demain.</h1>
           <button className="btn">
             <a href="https://wa.me/message/DHICMCCPRFXFO1" target="_blank" rel="noopener noreferrer">
               <h3>Travaillons ensemble</h3>

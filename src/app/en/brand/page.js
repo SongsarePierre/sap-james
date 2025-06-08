@@ -7,13 +7,13 @@ const stepsData = [
   {
     title: "Step 1: Brand Audit & Research",
     description:
-      "Brand Audit & Research: I begin with a deep dive into the client’s existing brand (if applicable), market competitors, and industry landscape. This phase includes analyzing brand assets, evaluating strengths and weaknesses, and identifying strategic opportunities for differentiation.",
+      "Brand Audit & Research: I begin with a deep dive into the client&apos;s existing brand (if applicable), market competitors, and industry landscape. This phase includes analyzing brand assets, evaluating strengths and weaknesses, and identifying strategic opportunities for differentiation.",
     image: "/pics/images/step1.webp",
   },
   {
     title: "Step 2: Brand Strategy",
     description:
-      "Brand Strategy: This is where I help define the brand’s mission, vision, and values. I craft a unique positioning statement that clearly articulates how the brand stands out from competitors. Together, I establish a brand personality that resonates with the target audience.",
+      "Brand Strategy: This is where I help define the brand&apos;s mission, vision, and values. I craft a unique positioning statement that clearly articulates how the brand stands out from competitors. Together, I establish a brand personality that resonates with the target audience.",
     image: "/pics/images/step2.webp",
   },
   {
@@ -31,7 +31,7 @@ const stepsData = [
   {
     title: "Step 5: Visual Identity Blueprint",
     description:
-      "Visual Identity Blueprint: I lay the foundation for the brand’s visual identity by defining key elements like colors, typography, and logo direction. This blueprint ensures that the visuals reflect the brand’s core values and positioning.",
+      "Visual Identity Blueprint: I lay the foundation for the brand&apos;s visual identity by defining key elements like colors, typography, and logo direction. This blueprint ensures that the visuals reflect the brand&apos;s core values and positioning.",
     image: "/pics/images/step5.webp",
   },
 ];
@@ -72,7 +72,7 @@ export default function BrandSteps() {
                 ))}
             </div>
             <p className="last-p">
-                Visual Identity Blueprint: I lay the foundation for the brand’s visual identity by defining key elements like colors, typography, and logo direction. This blueprint ensures that the visuals reflect the brand’s core values and positioning.
+                Visual Identity Blueprint: I lay the foundation for the brand&apos;s visual identity by defining key elements like colors, typography, and logo direction. This blueprint ensures that the visuals reflect the brand&apos;s core values and positioning.
             </p>
         </div>
     );

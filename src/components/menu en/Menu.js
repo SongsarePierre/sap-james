@@ -60,7 +60,9 @@ const Menu = () => {
         <div className="menu-container" ref={container}>
             <div className="menu-bar">
                 <div className="menu-logo">
-                    <Link href="/"><img src="/pics/logo/lo 1.webp" alt=""/></Link>
+                    <Link href="/">
+                        <Image src="/pics/logo/lo 1.webp" alt="..." width={200} height={100} />
+                    </Link>
                 </div>
                 <div className="menu-open" onClick={toggleMenu}>
                     <p>Menu</p>
@@ -70,7 +72,9 @@ const Menu = () => {
                 <div className="menu-overlay-bar">
                     <div className="menu-logo">
                         
-                        <Link href="/"><img src="/pics/logo/lo 2.webp" alt=""/></Link>
+                        <Link href="/">
+                            <Image src="/pics/logo/lo 2.webp" alt="..." width={200} height={100} />
+                        </Link>
                     </div>
                     <div className="menu-close" onClick={toggleMenu}>
                         <p>Close</p>

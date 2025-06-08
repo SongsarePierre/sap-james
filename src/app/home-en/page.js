@@ -22,7 +22,7 @@ const Card = ({ title, copy, pagePath, index}) => {
             <p>{copy}</p>
           </div>
           <div className="card-img">
-            <img src={`/pics/card-${index + 1}.gif`} alt={title}/>
+            <Image src={`/pics/card-${index + 1}.gif`} alt={title} width={200} height={100} />
           </div>
         </div>
       </a>
@@ -118,7 +118,7 @@ export default function Home() {
           <p>I will guide you through the process of creating brand identities using a simple and effective approach, helping you to promote your business and reach your target audience in a meaningful way.</p>
           <button>
             <a href="https://wa.me/message/DHICMCCPRFXFO1" target="_blank" rel="noopener noreferrer">
-              <h3>Let’s Work Together</h3>
+              <h3>Let&apos;s Work Together</h3>
             </a>
           </button>
         </section>

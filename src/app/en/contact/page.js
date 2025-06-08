@@ -14,7 +14,7 @@ export default function BrandSteps() {
                         <div className="step-txt">
                             <div className="txt">
                                 <h2>
-                                    Ready to bring your brand to life? Let’s connect!
+                                    Ready to bring your brand to life? Let&apos;s connect!
                                 </h2>
                                 <p>
                                     <b>Email: </b>sapjames77@gmail.com<br/>
@@ -31,7 +31,7 @@ export default function BrandSteps() {
                             </div>
                             <div className="line"></div>
                             <p>
-                                I’m excited to learn more about your project and explore how we can create something exceptional together.
+                                I&apos;m excited to learn more about your project and explore how we can create something exceptional together.
                             </p>                                 
                         </div>
                     </div>

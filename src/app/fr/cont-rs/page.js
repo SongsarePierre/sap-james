@@ -5,6 +5,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
+import "./cont-rs.css";
+
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -36,11 +38,6 @@ export default function GalleryPage() {
 
   return (
     <>
-      <Head>
-        <title>Gallery</title>
-        <link rel="stylesheet" href="cont-rs.css" />
-      </Head>
-
       <div className="page-content">
         <div className="title">
             <h1>

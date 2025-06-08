@@ -5,6 +5,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
+import "./cont-rs.css";
+
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -36,17 +38,12 @@ export default function GalleryPage() {
 
   return (
     <>
-      <Head>
-        <title>Gallery</title>
-        <link rel="stylesheet" href="cont-rs.css" />
-      </Head>
-
       <div className="page-content">
         <div className="title">
             <h1>
                 Visual Content Creation for Social Media
             </h1>
-            <p>Visual Content Creation for Social Media is the art and strategy of translating your brand’s identity into stunning, shareable visuals that resonate with your audience. It starts by understanding your brand voice and target audience, ensuring every image, video, or graphic aligns seamlessly with your overall message. I develop templates and design systems that guarantee consistency across platforms, from Instagram posts to Facebook stories, LinkedIn carousels to TikTok thumbnails. Our approach includes crafting original illustrations, curated photos, typographic treatments, and animated visuals that stop the scroll and spark conversation. I integrate trends and platform best practices while ensuring your content remains authentic and distinctive. This holistic strategy not only builds brand recognition but also fosters a community of loyal followers who love engaging with your content.</p>
+            <p>Visual Content Creation for Social Media is the art and strategy of translating your brand&apos;s identity into stunning, shareable visuals that resonate with your audience. It starts by understanding your brand voice and target audience, ensuring every image, video, or graphic aligns seamlessly with your overall message. I develop templates and design systems that guarantee consistency across platforms, from Instagram posts to Facebook stories, LinkedIn carousels to TikTok thumbnails. Our approach includes crafting original illustrations, curated photos, typographic treatments, and animated visuals that stop the scroll and spark conversation. I integrate trends and platform best practices while ensuring your content remains authentic and distinctive. This holistic strategy not only builds brand recognition but also fosters a community of loyal followers who love engaging with your content.</p>
         </div>
 
         <div className="gallery-grid">

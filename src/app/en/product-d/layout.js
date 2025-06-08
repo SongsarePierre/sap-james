@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Service 4 - SAP JAMES",
-  description: "Designing intuitive, beautiful, and functional products that solve real user problems and strengthen your brand’s value. It’s about transforming ideas into experiences that users love.",
+  description: "Designing intuitive, beautiful, and functional products that solve real user problems and strengthen your brand&apos;s value. It&apos;s about transforming ideas into experiences that users love.",
 };
 
 export default function ProductLayout({ children }) {
