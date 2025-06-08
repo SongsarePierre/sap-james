@@ -1,0 +1,148 @@
+body {
+    font-family: 'Inter', sans-serif;
+    overflow: auto;
+    height: 100%;
+}
+
+.lang-en {
+    display: none;
+}
+
+.lang {
+    display: none;
+}
+
+.steps-container {
+  height: 100vh;
+    padding: 8em 2em 2em 2em;
+}
+
+.title {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.title h1,
+.step-description .name {
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 1;
+    /* margin-bottom: 30px; */
+}
+
+.steps-wrapper {
+  position: relative;
+}
+
+.line {
+    width: 100%;
+    background-color: #1f1f1f;
+    height: 2px;
+    border-radius: 10px;
+}
+
+.info {
+    color: #fff;
+}
+
+.step {
+  position: relative;
+  justify-content: center;
+  /* align-items: center; */
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 0 10vw;
+  gap: 100px;
+  width: 100%;
+}
+
+.step-content {
+  /* margin-top: 1rem; */
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.step-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.step-txt {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tools {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.tools-in {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.tool {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 100px;
+}
+
+.step-description {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.step-description .name span {
+    color: #1f1f1f;
+    font-size: 3vw;
+}
+
+.step-image img {
+  border-radius: 5px;
+  width: 100%;
+  /* height: 10vh; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .title h1,
+    .step-description .name {
+        font-size: 8vw;
+    }
+
+    .tools {
+        flex-direction: row;
+    }
+
+    .tools-in {
+        flex-direction: column;
+    }
+
+    .step-description .name span {
+        font-size: 6vw;
+    }
+
+    .step {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5vw;
+        gap: 100px;
+    }
+  
+}
+

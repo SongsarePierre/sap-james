@@ -1,0 +1,98 @@
+body {
+    font-family: 'Inter', sans-serif;
+    overflow: auto;
+    height: 100%;
+}
+
+.lang-en {
+    display: none;
+}
+
+.lang {
+    display: none;
+}
+
+.page-content {
+    height: 100vh;
+    padding: 8em 2em 2em 2em;
+}
+
+.title {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.title p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    columns: 300px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    width: 100%;
+    margin-bottom: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.03);
+}
+
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 40;
+}
+
+.modal-container {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-image {
+    width: auto;
+    height: 100%;
+    margin: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+@supports not (backdrop-filter: blur(6px)) {
+    .backdrop {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+@media (max-width: 900px){
+     .title h1 {
+        font-size: 8vw;
+    }
+    
+    .modal-image {
+        width: 100%;
+        height: auto;
+    }
+}

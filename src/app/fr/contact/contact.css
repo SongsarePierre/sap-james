@@ -1,0 +1,95 @@
+body {
+    font-family: 'Inter', sans-serif;
+    overflow: auto;
+    height: 100%;
+}
+
+.lang {
+    display: none;
+}
+
+.steps-container {
+  height: 100vh;
+    padding: 8em 2em 2em 2em;
+}
+
+.title {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 1;
+    /* margin-bottom: 30px; */
+}
+
+.steps-wrapper {
+  position: relative;
+}
+
+.step {
+  position: relative;
+  display: flex;
+  padding: 0 2vw;
+  gap: 50px;
+  width: 100%;
+}
+
+.step-content {
+  /* margin-top: 1rem; */
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.step-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.step-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    background-color: #1f1f1f;
+    height: 2px;
+    border-radius: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-left: 2vw;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.step-txt p {
+  font-size: 1rem;
+}
+
+.txt p {
+    padding-left: 2vw;
+    padding-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .title h1 {
+        font-size: 8vw;
+    }
+  
+}
+
