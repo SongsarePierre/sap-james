@@ -20,7 +20,8 @@ const Card = ({ title, copy, pagePath, index}) => {
         <div className="card-inner">
           <div className="card-content">
             <h1>{title}</h1>
-            <p>{copy}</p>
+            <p>{copy}</p><br/><br/>
+            <p><b>View more<span>&rarr;</span></b></p>
           </div>
           <div className="card-img">
             <Image src={`/pics/card-${index + 1}.gif`} alt={title} width={200} height={100} />
