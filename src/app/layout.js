@@ -5,6 +5,7 @@ import Menu from "@/components/menu fr/Menu";
 import Lang from "@/components/lang fr/lang-fr";
 import Head from "next/head";
 import { imageConfigDefault } from "next/dist/shared/lib/image-config";
+// import Head from 'next/head';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,24 +15,24 @@ export const metadata = {
   icons: {
     icon: '/favicon.svg',
   },
-  openGraph: {
-    title: 'SAP JAMES',
-    description: 'Graphic designer',
-    siteName: 'Your Website Name',
-    images: [
-      {
-        url: '/view.webp',
-        width: 1200,
-        height: 630,
-      },
-    ],
-    type: 'website',
-  },
-  twitter: {
-    title: 'SAP JAMES',
-    description: 'Graphic designer',
-    images: ['/view.webp'],
-  },
+  // openGraph: {
+  //   title: 'SAP JAMES',
+  //   description: 'Graphic designer',
+  //   siteName: 'Your Website Name',
+  //   images: [
+  //     {
+  //       url: '/view.webp',
+  //       width: 1200,
+  //       height: 630,
+  //     },
+  //   ],
+  //   type: 'website',
+  // },
+  // twitter: {
+  //   title: 'SAP JAMES',
+  //   description: 'Graphic designer',
+  //   images: ['/view.webp'],
+  // },
 };
 
 export default function RootLayout({ children }) {
@@ -40,6 +41,8 @@ export default function RootLayout({ children }) {
       <head>
         <meta property="og:image" content="/view.webp" />
         <meta name="twitter:image" content="/view.webp" />
+        {/* <meta property="og:image" content="/view.webp" />
+        <meta name="twitter:image" content="/view.webp" /> */}
       </head>
       <body className={inter.className}>
         <Menu />

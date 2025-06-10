@@ -109,7 +109,7 @@ export default function Home() {
     <ReactLenis root>
       <div className="app" ref={container}>
         <section className="intro">
-          <h1>Bienvenue chez SAPJAMES,</h1>
+          <h1>Bienvenue chez SAP JAMES,</h1>
           <p>Je vous accompagne dans la création d&apos;identités de marque, grâce à une approche simple et efficace, je vous aide à valoriser votre entreprise et à toucher votre public cible de manière concrète.</p>
           <button>
             <a href="https://wa.me/message/DHICMCCPRFXFO1" target="_blank" rel="noopener noreferrer">

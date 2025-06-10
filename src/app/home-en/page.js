@@ -116,7 +116,7 @@ export default function Home() {
       </div>
       <div className="app" ref={container}>
         <section className="intro">
-          <h1>Welcome to SAPJAMES,</h1>
+          <h1>Welcome to SAP JAMES,</h1>
           <p>I will guide you through the process of creating brand identities using a simple and effective approach, helping you to promote your business and reach your target audience in a meaningful way.</p>
           <button>
             <a href="https://wa.me/message/DHICMCCPRFXFO1" target="_blank" rel="noopener noreferrer">
